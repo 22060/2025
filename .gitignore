@@ -26,3 +26,15 @@ zz
 
 .pio
 data
+
+# temp files
+*.bak
+*.bck
+*.kicad_pcb-bak
+*-cache.lib
+# *-rescue.lib
+ftp-lib-table
+
+# for external tools
+*.dsn
+*-backups
