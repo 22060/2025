@@ -189,6 +189,7 @@
       ],
       "track_widths": [
         0.0,
+        0.0,
         0.508,
         2.54
       ],
@@ -503,7 +504,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "C:/Users/kojor_fyn5sjo/Downloads/mdhub/",
+      "plot": "C:/Users/kj091/Downloads/mdhub/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
