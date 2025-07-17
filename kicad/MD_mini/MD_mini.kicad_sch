@@ -168,6 +168,210 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x03_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x03_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -1352,6 +1556,272 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Sensor_Current:ACS711xEXLT-15AB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ACS711xEXLT-15AB"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Sensor_Current:Allegro_QFN-12-10-1EP_3x3mm_P0.5mm"
+				(at 8.89 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.allegromicro.com/~/Media/Files/Datasheets/ACS711-Datasheet.ashx"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "±15A Bidirectional Hall-Effect Current Sensor, +3.3V supply, 90mV/A, QFN-12"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "hall effect current monitor sensor isolated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Allegro*QFN*EP*3x3mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ACS711xEXLT-15AB_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "ACS711xEXLT-15AB_1_1"
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "IP+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "IP-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 90)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -10.16 90)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -10.16 90)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "VIOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "~{FAULT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "jisaku:RD3L07BBG"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2476,12 +2946,6 @@
 		)
 	)
 	(junction
-		(at 81.28 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01e9ca43-3053-4a02-b3ac-2d0af8f9fd22")
-	)
-	(junction
 		(at 222.25 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2600,12 +3064,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d73b3c7-7f5c-4581-b384-f7c2ccf8abee")
-	)
-	(junction
-		(at 87.63 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "79bc551a-80fc-4802-9f7c-63a4255cc42e")
 	)
 	(junction
 		(at 87.63 170.18)
@@ -2752,6 +3210,12 @@
 		(uuid "eebee5e8-370f-4673-8950-c66c9b2bc4a4")
 	)
 	(junction
+		(at 87.63 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2f433d7-ef48-4771-b4f9-c85d1af84d5d")
+	)
+	(junction
 		(at 166.37 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2805,26 +3269,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 162.56) (xy 87.63 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05733c5c-f642-4f90-aa12-8a7e6af61e71")
-	)
-	(wire
-		(pts
-			(xy 81.28 161.29) (xy 81.28 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0600df84-1dec-47e5-98b4-181a551d67b8")
-	)
-	(wire
-		(pts
 			(xy 185.42 44.45) (xy 185.42 66.04)
 		)
 		(stroke
@@ -2832,6 +3276,16 @@
 			(type default)
 		)
 		(uuid "087eeec3-b086-4c6b-bfee-5fc6b4fec906")
+	)
+	(wire
+		(pts
+			(xy 68.58 180.34) (xy 53.34 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09f065a3-4dc6-40b1-882e-a2ddd615ae04")
 	)
 	(wire
 		(pts
@@ -2915,6 +3369,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 180.34) (xy 53.34 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1472f0cf-b282-4330-967e-f38a298676b4")
+	)
+	(wire
+		(pts
 			(xy 157.48 49.53) (xy 152.4 49.53)
 		)
 		(stroke
@@ -2972,6 +3436,16 @@
 			(type default)
 		)
 		(uuid "209a051b-8b07-40c5-a123-149e02a1eab8")
+	)
+	(wire
+		(pts
+			(xy 43.18 162.56) (xy 81.28 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "211f8977-b075-4d47-951c-7e7104d7153e")
 	)
 	(wire
 		(pts
@@ -3065,13 +3539,13 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 165.1) (xy 76.2 165.1)
+			(xy 59.69 143.51) (xy 68.58 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "26823ad2-76a4-42df-bc2b-9012ffb50016")
+		(uuid "26cbc9f9-da60-4599-995c-e22f4c5619a1")
 	)
 	(wire
 		(pts
@@ -3385,16 +3859,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 162.56) (xy 81.28 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d746614-180e-4aa4-8a55-f886f92d0941")
-	)
-	(wire
-		(pts
 			(xy 86.36 106.68) (xy 86.36 109.22)
 		)
 		(stroke
@@ -3455,6 +3919,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 146.05) (xy 67.31 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c9c8107-6046-4b9f-b04d-8591f55873b7")
+	)
+	(wire
+		(pts
 			(xy 86.36 52.07) (xy 91.44 52.07)
 		)
 		(stroke
@@ -3462,6 +3936,16 @@
 			(type default)
 		)
 		(uuid "608e8133-30d5-4c06-931b-4b2e58a74b0f")
+	)
+	(wire
+		(pts
+			(xy 59.69 154.94) (xy 53.34 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60d6f6a6-3299-4e57-a941-66b7c374bac3")
 	)
 	(wire
 		(pts
@@ -3735,6 +4219,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 165.1) (xy 63.5 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f1d0277-2098-4e68-a6d0-99e96b508da6")
+	)
+	(wire
+		(pts
 			(xy 132.08 105.41) (xy 132.08 109.22)
 		)
 		(stroke
@@ -3762,6 +4256,16 @@
 			(type default)
 		)
 		(uuid "833c20d2-aef4-487f-a873-d435b1d81198")
+	)
+	(wire
+		(pts
+			(xy 81.28 162.56) (xy 81.28 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8378dbf3-f69f-4d7f-8ef1-fb1e104cbedd")
 	)
 	(wire
 		(pts
@@ -3825,6 +4329,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 165.1) (xy 81.28 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c098b21-485c-4de0-b840-aa73e68eb5cb")
+	)
+	(wire
+		(pts
 			(xy 115.57 41.91) (xy 115.57 46.99)
 		)
 		(stroke
@@ -3842,6 +4356,16 @@
 			(type default)
 		)
 		(uuid "8d2480bb-f7a7-4edb-aed6-dc6654cddb55")
+	)
+	(wire
+		(pts
+			(xy 59.69 146.05) (xy 67.31 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8efdcaa5-b029-4896-a49d-533c2187802f")
 	)
 	(wire
 		(pts
@@ -4035,6 +4559,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 160.02) (xy 43.18 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ee8188-d11f-4260-adb5-3de6169963eb")
+	)
+	(wire
+		(pts
 			(xy 222.25 123.19) (xy 203.2 123.19)
 		)
 		(stroke
@@ -4072,6 +4606,16 @@
 			(type default)
 		)
 		(uuid "a6c546d9-b37c-487d-b609-e4015c72c7b7")
+	)
+	(wire
+		(pts
+			(xy 59.69 148.59) (xy 59.69 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a77d19f7-8f63-4db3-bcf2-8013e69bc19c")
 	)
 	(wire
 		(pts
@@ -4392,6 +4936,16 @@
 			(type default)
 		)
 		(uuid "df469efe-50cb-43e3-8406-b371612e3b7a")
+	)
+	(wire
+		(pts
+			(xy 68.58 143.51) (xy 68.58 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0578588-d97d-4922-8160-5dc8d346a3f3")
 	)
 	(wire
 		(pts
@@ -7604,7 +8158,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 81.28 161.29 0)
+		(at 87.63 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7613,7 +8167,7 @@
 		(fields_autoplaced yes)
 		(uuid "858edfcf-b1c8-4e7e-a3ff-a3f2fe524ade")
 		(property "Reference" "#PWR013"
-			(at 81.28 165.1 0)
+			(at 87.63 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7622,7 +8176,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 81.28 156.21 0)
+			(at 87.63 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7630,7 +8184,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 161.29 0)
+			(at 87.63 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7639,7 +8193,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 161.29 0)
+			(at 87.63 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7648,7 +8202,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 81.28 161.29 0)
+			(at 87.63 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8026,6 +8580,102 @@
 			(project "MD_mini"
 				(path "/5b9174b4-8dcf-442c-9b99-056da30be3d5"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Current:ACS711xEXLT-15AB")
+		(at 53.34 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99b3a6c6-617c-4e91-8aa0-f595bb5b54a1")
+		(property "Reference" "U4"
+			(at 55.4833 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ACS711xEXLT-15AB"
+			(at 55.4833 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Sensor_Current:Allegro_QFN-12-10-1EP_3x3mm_P0.5mm"
+			(at 62.23 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.allegromicro.com/~/Media/Files/Datasheets/ACS711-Datasheet.ashx"
+			(at 53.34 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "±15A Bidirectional Hall-Effect Current Sensor, +3.3V supply, 90mV/A, QFN-12"
+			(at 53.34 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "a78b280a-dfa5-4618-9ff6-9d0cc752b9a5")
+		)
+		(pin "8"
+			(uuid "28546559-8d61-4e64-92c2-186f1cd1adee")
+		)
+		(pin "1"
+			(uuid "6436e475-af4f-465c-a6e0-c43778c16d31")
+		)
+		(pin "5"
+			(uuid "80c71e51-1d12-494d-a0b5-83754ea3efa9")
+		)
+		(pin "2"
+			(uuid "481a1e33-b50c-4c95-af59-332f4b260cd9")
+		)
+		(pin "3"
+			(uuid "45d4c082-3ad4-4887-beb9-9d15c1f01b1b")
+		)
+		(pin "6"
+			(uuid "6a71eec9-ad10-4a80-bf8e-16cc656a9aaa")
+		)
+		(pin "10"
+			(uuid "23abf22f-592b-42be-894a-7e6097dc4e0b")
+		)
+		(pin "7"
+			(uuid "07f93272-01cc-49a8-90ab-9dca84fd0bef")
+		)
+		(pin "9"
+			(uuid "c8b48dd9-c82e-427d-913d-a31e581b724a")
+		)
+		(instances
+			(project ""
+				(path "/5b9174b4-8dcf-442c-9b99-056da30be3d5"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -8799,6 +9449,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 43.18 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c083a0dd-ab91-4d9e-b088-408de2d1e627")
+		(property "Reference" "#PWR017"
+			(at 43.18 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 43.18 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 43.18 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5bfb078-38e5-4c35-8de0-1e37c7e2dd83")
+		)
+		(instances
+			(project "MD_mini"
+				(path "/5b9174b4-8dcf-442c-9b99-056da30be3d5"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
 		(at 129.54 17.78 0)
 		(unit 1)
@@ -8873,6 +9589,77 @@
 			(project ""
 				(path "/5b9174b4-8dcf-442c-9b99-056da30be3d5"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 54.61 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc66ee3b-da42-4dc9-9162-a723e519920a")
+		(property "Reference" "J2"
+			(at 55.245 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 55.245 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 54.61 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 54.61 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0d46636b-e5b4-43f7-8c80-3fd808d0e3cd")
+		)
+		(pin "3"
+			(uuid "d557d203-e500-45a7-8e21-df1be86da82f")
+		)
+		(pin "1"
+			(uuid "e0cbb11f-0d3e-4a56-a80e-da0c099d9ee5")
+		)
+		(instances
+			(project ""
+				(path "/5b9174b4-8dcf-442c-9b99-056da30be3d5"
+					(reference "J2")
 					(unit 1)
 				)
 			)
