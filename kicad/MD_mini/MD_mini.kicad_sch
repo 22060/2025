@@ -6148,7 +6148,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323F"
+		(property "Footprint" "Diode_SMD:D_MicroSMP_AK"
 			(at 219.71 93.98 0)
 			(effects
 				(font
@@ -6755,7 +6755,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323F"
+		(property "Footprint" "Diode_SMD:D_MicroSMP_AK"
 			(at 115.57 36.83 0)
 			(effects
 				(font
@@ -7519,7 +7519,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323F"
+		(property "Footprint" "Diode_SMD:D_MicroSMP_AK"
 			(at 115.57 93.98 0)
 			(effects
 				(font
@@ -10356,7 +10356,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323F"
+		(property "Footprint" "Diode_SMD:D_MicroSMP_AK"
 			(at 219.71 36.83 0)
 			(effects
 				(font
