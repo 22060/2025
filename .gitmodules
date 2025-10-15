@@ -4,3 +4,9 @@
 [submodule "kicad/stm32dev2"]
 	path = kicad/stm32dev2
 	url = https://github.com/22060/STM32H523dev
+[submodule "Gowin_proj"]
+	path = Gowin_proj
+	url = git@github.com:22060/gowin_projects.git
+[submodule "kitchen_relay"]
+	path = kitchen_relay
+	url = git@github.com:22060/kitchen_relay.git
