@@ -10,3 +10,6 @@
 [submodule "kitchen_relay"]
 	path = kitchen_relay
 	url = git@github.com:22060/kitchen_relay.git
+[submodule "AI"]
+	path = AI
+	url = git@github.com:22060/AI.git
