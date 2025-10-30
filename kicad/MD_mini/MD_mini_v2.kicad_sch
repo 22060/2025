@@ -6201,6 +6201,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 163.83) (xy 60.96 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5221825-1fd2-45bd-ab44-5a96419ae075")
+	)
+	(wire
+		(pts
 			(xy 67.31 66.04) (xy 90.17 66.04)
 		)
 		(stroke
@@ -6368,6 +6378,16 @@
 			(type default)
 		)
 		(uuid "befcb1a6-f9b7-4680-9035-57edf40e1e9c")
+	)
+	(wire
+		(pts
+			(xy 67.31 166.37) (xy 60.96 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf048a97-eeec-46f7-a281-ec5b5c416941")
 	)
 	(wire
 		(pts
@@ -6821,6 +6841,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 160.02) (xy 67.31 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ece6ea4b-11b1-4e80-a7ba-53ea5515b52e")
+	)
+	(wire
+		(pts
 			(xy 124.46 121.92) (xy 124.46 123.19)
 		)
 		(stroke
@@ -7163,6 +7193,28 @@
 			)
 		)
 	)
+	(global_label "SDA"
+		(shape input)
+		(at 60.96 171.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3db50cab-892b-42c8-afa4-a17621133c9a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.5133 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PWM2_1"
 		(shape input)
 		(at 201.93 157.48 0)
@@ -7247,6 +7299,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED1"
+		(shape output)
+		(at 166.37 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "491fc5d3-4caa-463c-bfdc-9f66f61f4718")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.7282 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7528,6 +7602,28 @@
 		(uuid "8dd9c05a-7ee3-4b2d-9479-67e690cb0e01")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 215.7403 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 60.96 168.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "95594dff-773e-4ea0-9b51-c7f19f6773a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.4528 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8116,7 +8212,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal"
 			(at 58.42 148.59 0)
 			(effects
 				(font
@@ -9631,6 +9727,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND1")
+		(at 68.58 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "317048f7-2f1c-41f6-b507-df6851f8553f")
+		(property "Reference" "#PWR019"
+			(at 68.58 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 68.58 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 68.58 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3e7bc17-0aa2-48ee-aee1-c5317f53cf38")
+		)
+		(instances
+			(project "MD_mini_v2"
+				(path "/5b9174b4-8dcf-442c-9b99-056da30be3d5"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Driver_FET:IRS2003")
 		(at 203.2 106.68 0)
 		(unit 1)
@@ -10248,6 +10410,72 @@
 			(project "MD_mini"
 				(path "/5b9174b4-8dcf-442c-9b99-056da30be3d5"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 67.31 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4210e1bd-769f-4167-81b8-290f18b98c19")
+		(property "Reference" "#PWR034"
+			(at 67.31 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 67.31 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 67.31 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b03cf7f8-a115-4ca7-a080-6aa3bc851360")
+		)
+		(instances
+			(project "MD_mini_v2"
+				(path "/5b9174b4-8dcf-442c-9b99-056da30be3d5"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -14277,7 +14505,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal"
 			(at 36.83 148.59 0)
 			(effects
 				(font
@@ -14880,6 +15108,80 @@
 			(project "MD_mini"
 				(path "/5b9174b4-8dcf-442c-9b99-056da30be3d5"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 55.88 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c748572a-2d76-41ea-bab1-5bafcee9739e")
+		(property "Reference" "J8"
+			(at 56.515 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 56.515 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+			(at 55.88 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 55.88 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afc15d94-4775-4296-ab2d-eb76e9784531")
+		)
+		(pin "4"
+			(uuid "743a81d2-8df8-41cd-a896-2e26eb4a170e")
+		)
+		(pin "3"
+			(uuid "3d8bad4e-a2d7-4596-b96e-733cd6ef0938")
+		)
+		(pin "2"
+			(uuid "150951bb-beac-426b-8a44-2818aadd38d0")
+		)
+		(instances
+			(project ""
+				(path "/5b9174b4-8dcf-442c-9b99-056da30be3d5"
+					(reference "J8")
 					(unit 1)
 				)
 			)
