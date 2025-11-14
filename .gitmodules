@@ -13,3 +13,6 @@
 [submodule "AI"]
 	path = AI
 	url = git@github.com:22060/AI.git
+[submodule "kicad/keyboad"]
+	path = kicad/keyboad
+	url = https://github.com/22060/keyboadv1
