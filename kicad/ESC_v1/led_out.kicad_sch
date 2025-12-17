@@ -1,0 +1,686 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "8a3bf44e-8a6b-4b3e-8091-b344f8309aad")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 120.65 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "552aabb0-672c-41e9-bd03-7186707d1a1f")
+	)
+	(wire
+		(pts
+			(xy 120.65 95.25) (xy 123.19 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f223eaa-94ea-47ae-8320-1780330aec56")
+	)
+	(wire
+		(pts
+			(xy 119.38 101.6) (xy 120.65 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d179c1f-1960-4446-b162-0817044d3f07")
+	)
+	(wire
+		(pts
+			(xy 120.65 101.6) (xy 120.65 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38064871-2b04-4860-96a6-11d0300974ce")
+	)
+	(wire
+		(pts
+			(xy 120.65 90.17) (xy 120.65 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e5ba0b3-088a-4e15-9356-c02943e3b771")
+	)
+	(wire
+		(pts
+			(xy 111.76 90.17) (xy 111.76 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84043aeb-0b80-489d-a915-360e1ce2adc8")
+	)
+	(wire
+		(pts
+			(xy 119.38 90.17) (xy 120.65 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3d0c3c7-e481-49cb-bcf3-3b9368e2f01e")
+	)
+	(hierarchical_label "IN"
+		(shape input)
+		(at 111.76 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "202cb8df-6b01-4808-b4c1-8dbdc23e1dbf")
+	)
+	(hierarchical_label "out"
+		(shape output)
+		(at 130.81 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa6b2c27-c717-4347-a557-6ad8a16be6ff")
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 115.57 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12297a50-4158-4c64-a806-a726aa23d9aa")
+		(property "Reference" "D3"
+			(at 117.1575 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 117.1575 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 115.57 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 115.57 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 115.57 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b06c6db-a529-4651-a251-86bea1434893")
+		)
+		(pin "2"
+			(uuid "b19d4764-9273-45b8-b34c-0ffa755e2502")
+		)
+		(instances
+			(project "ESC_v1"
+				(path "/643a74e6-da9a-4f0e-bb82-8f2ac15e39e7/0a45e5c3-3111-46e1-a908-8a3592edaf08"
+					(reference "D7")
+					(unit 1)
+				)
+				(path "/643a74e6-da9a-4f0e-bb82-8f2ac15e39e7/671ad077-bc29-4c38-a2f7-8c3f61441663"
+					(reference "D5")
+					(unit 1)
+				)
+				(path "/643a74e6-da9a-4f0e-bb82-8f2ac15e39e7/6aed22a5-d23b-402d-a727-47e348023896"
+					(reference "D11")
+					(unit 1)
+				)
+				(path "/643a74e6-da9a-4f0e-bb82-8f2ac15e39e7/966e741f-c722-4ed5-b017-7eee56d092a8"
+					(reference "D9")
+					(unit 1)
+				)
+				(path "/643a74e6-da9a-4f0e-bb82-8f2ac15e39e7/9ed71a25-df4c-4207-bc3e-49c29e955802"
+					(reference "D13")
+					(unit 1)
+				)
+				(path "/643a74e6-da9a-4f0e-bb82-8f2ac15e39e7/fbf71fbf-6ed2-4358-874f-ef4f66e8f4ee"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 115.57 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6858a69-eb47-4006-a985-3dad010bc63d")
+		(property "Reference" "D2"
+			(at 113.9825 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 113.9825 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 115.57 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 115.57 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 115.57 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54e763e7-e658-4e4a-9baf-e963d76ce7e3")
+		)
+		(pin "2"
+			(uuid "30fc94cd-be01-414d-96c0-4be3ad764a0c")
+		)
+		(instances
+			(project "ESC_v1"
+				(path "/643a74e6-da9a-4f0e-bb82-8f2ac15e39e7/0a45e5c3-3111-46e1-a908-8a3592edaf08"
+					(reference "D6")
+					(unit 1)
+				)
+				(path "/643a74e6-da9a-4f0e-bb82-8f2ac15e39e7/671ad077-bc29-4c38-a2f7-8c3f61441663"
+					(reference "D4")
+					(unit 1)
+				)
+				(path "/643a74e6-da9a-4f0e-bb82-8f2ac15e39e7/6aed22a5-d23b-402d-a727-47e348023896"
+					(reference "D10")
+					(unit 1)
+				)
+				(path "/643a74e6-da9a-4f0e-bb82-8f2ac15e39e7/966e741f-c722-4ed5-b017-7eee56d092a8"
+					(reference "D8")
+					(unit 1)
+				)
+				(path "/643a74e6-da9a-4f0e-bb82-8f2ac15e39e7/9ed71a25-df4c-4207-bc3e-49c29e955802"
+					(reference "D12")
+					(unit 1)
+				)
+				(path "/643a74e6-da9a-4f0e-bb82-8f2ac15e39e7/fbf71fbf-6ed2-4358-874f-ef4f66e8f4ee"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 127 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b71af631-ea25-4df4-978c-4c5869b29d13")
+		(property "Reference" "R37"
+			(at 127 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 127 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 127 97.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 127 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "152b366a-6d64-42dd-bfc6-47bda3868d17")
+		)
+		(pin "2"
+			(uuid "080d2768-00d1-4162-843c-56ff0dd86a63")
+		)
+		(instances
+			(project "ESC_v1"
+				(path "/643a74e6-da9a-4f0e-bb82-8f2ac15e39e7/0a45e5c3-3111-46e1-a908-8a3592edaf08"
+					(reference "R39")
+					(unit 1)
+				)
+				(path "/643a74e6-da9a-4f0e-bb82-8f2ac15e39e7/671ad077-bc29-4c38-a2f7-8c3f61441663"
+					(reference "R38")
+					(unit 1)
+				)
+				(path "/643a74e6-da9a-4f0e-bb82-8f2ac15e39e7/6aed22a5-d23b-402d-a727-47e348023896"
+					(reference "R41")
+					(unit 1)
+				)
+				(path "/643a74e6-da9a-4f0e-bb82-8f2ac15e39e7/966e741f-c722-4ed5-b017-7eee56d092a8"
+					(reference "R40")
+					(unit 1)
+				)
+				(path "/643a74e6-da9a-4f0e-bb82-8f2ac15e39e7/9ed71a25-df4c-4207-bc3e-49c29e955802"
+					(reference "R42")
+					(unit 1)
+				)
+				(path "/643a74e6-da9a-4f0e-bb82-8f2ac15e39e7/fbf71fbf-6ed2-4358-874f-ef4f66e8f4ee"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
