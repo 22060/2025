@@ -30,7 +30,7 @@
         "fab_text_size_v": 1.0,
         "fab_text_thickness": 0.15,
         "fab_text_upright": false,
-        "other_line_width": 0.1,
+        "other_line_width": 2.0,
         "other_text_italic": false,
         "other_text_size_h": 1.0,
         "other_text_size_v": 1.0,
@@ -48,11 +48,74 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "clearance|189320002|77207000|869d497b-cac4-4b7d-9822-5b6748c12cf6|f460dbb7-6f14-4e83-8437-ed384c4813d8",
+          ""
+        ],
+        [
+          "clearance|189348000|88687800|3c430a76-4fe3-482b-b3c1-fd419bf4451a|7cfa7b66-d7d3-4143-a142-e4c8e5d92e92",
+          ""
+        ],
+        [
+          "clearance|189445002|79132000|11d9ef55-43a1-45fb-af41-5380af744aa6|223fcc3f-d641-439d-9896-133bedba9bea",
+          ""
+        ],
+        [
+          "clearance|189449600|83557000|be697d1d-4a9e-4aab-9e2f-3e1e043d9d7a|8836cb1c-1c13-4720-af33-ee9582e39f58",
+          ""
+        ],
+        [
+          "clearance|189473000|90612800|8eba633a-b536-4659-a59a-0a90ae89d63f|4fff949b-c898-425c-9665-7c4cbd319054",
+          ""
+        ],
+        [
+          "clearance|189574600|85482000|bd4ccaac-008a-454b-8743-20c79179a7e7|a3f48125-8eac-4f9a-9f9f-580609e9e93d",
+          ""
+        ],
+        [
+          "copper_edge_clearance|172666950|58378950|b021014b-cd88-4c0c-94db-3a92f6e1f164|3583f41c-27b0-4b69-8c9e-14cb6f8b6f12",
+          ""
+        ],
+        [
+          "copper_edge_clearance|172666950|59953950|b021014b-cd88-4c0c-94db-3a92f6e1f164|a40489ce-6a9f-48e3-8616-ddcea6c7e725",
+          ""
+        ],
+        [
+          "copper_edge_clearance|172666950|64728950|b021014b-cd88-4c0c-94db-3a92f6e1f164|db3ed1cb-1dad-437a-8a56-ab0b609802f1",
+          ""
+        ],
+        [
+          "copper_edge_clearance|172666950|66303950|b021014b-cd88-4c0c-94db-3a92f6e1f164|9ec8f835-8106-4a68-a791-27646f58e07f",
+          ""
+        ],
+        [
+          "copper_edge_clearance|172679150|87563550|b021014b-cd88-4c0c-94db-3a92f6e1f164|5e0a1904-8de3-4daa-a86f-8b53cf836975",
+          ""
+        ],
+        [
+          "copper_edge_clearance|172679150|89138550|b021014b-cd88-4c0c-94db-3a92f6e1f164|9e6dc733-7f6c-44bc-96e4-4fa3736c7f1a",
+          ""
+        ],
+        [
+          "copper_edge_clearance|172768550|71383750|b021014b-cd88-4c0c-94db-3a92f6e1f164|627f6bf2-963c-4722-94eb-456ae77c938d",
+          ""
+        ],
+        [
+          "copper_edge_clearance|172768550|72958750|b021014b-cd88-4c0c-94db-3a92f6e1f164|ec4b84d9-24f1-4fc0-9069-c91a21a3b0ac",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -125,14 +188,14 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.0,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_annular_width": 0.0,
+        "min_via_diameter": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -180,7 +243,11 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.254,
+        2.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +274,20 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.5
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -486,7 +566,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "C:/Users/kojor_fyn5sjo/Downloads/ESC_v1/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -618,11 +698,11 @@
       "halfHbridge5"
     ],
     [
-      "578ec90e-6d06-4801-8812-6b3c6231c937",
+      "1e376d22-c1fb-42f7-ac5c-0e3792fe97d6",
       "halfHbridge4"
     ],
     [
-      "2d0a60eb-521e-4871-a8d3-6ffda0559e0b",
+      "95280b6c-4ff2-435c-956b-1f252d294f83",
       "halfHbridge6"
     ],
     [
@@ -630,7 +710,7 @@
       "halfHbridge7"
     ],
     [
-      "ba8eb5f5-ace4-4942-b3f1-1c18f3bd412d",
+      "0966513d-f44a-4727-afd3-2211add40901",
       "halfHbridge8"
     ],
     [
@@ -650,15 +730,15 @@
       "led_out2"
     ],
     [
-      "966e741f-c722-4ed5-b017-7eee56d092a8",
+      "ce0ecffb-b4ef-47fb-9205-41bf7291bb87",
       "led_out3"
     ],
     [
-      "6aed22a5-d23b-402d-a727-47e348023896",
+      "9e4937c5-8bb0-45eb-9ed6-7e3976165ba2",
       "led_out4"
     ],
     [
-      "9ed71a25-df4c-4207-bc3e-49c29e955802",
+      "4e5e5574-3c28-4fcb-8934-b1124c5f62a4",
       "led_out5"
     ]
   ],
