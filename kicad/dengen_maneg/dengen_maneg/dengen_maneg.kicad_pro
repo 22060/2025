@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -127,18 +127,18 @@
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.0,
-        "min_hole_to_hole": 0.0,
-        "min_microvia_diameter": 0.0,
-        "min_microvia_drill": 0.0,
-        "min_resolved_spokes": 0,
+        "min_hole_clearance": 0.25,
+        "min_hole_to_hole": 0.25,
+        "min_microvia_diameter": 0.2,
+        "min_microvia_drill": 0.1,
+        "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.1,
+        "min_through_hole_diameter": 0.3,
         "min_track_width": 0.0,
-        "min_via_annular_width": 0.0,
-        "min_via_diameter": 0.0,
+        "min_via_annular_width": 0.1,
+        "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -188,8 +188,11 @@
       ],
       "track_widths": [
         0.0,
-        0.254,
-        2.0
+        0.8,
+        1.0,
+        2.0,
+        4.5,
+        5.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -225,10 +228,6 @@
         {
           "diameter": 0.45,
           "drill": 0.3
-        },
-        {
-          "diameter": 0.8,
-          "drill": 0.5
         }
       ],
       "zones_allow_external_fillets": false
@@ -473,7 +472,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "md_v3.kicad_pro",
+    "filename": "dengen_maneg.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -509,7 +508,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "C:/Users/kojor_fyn5sjo/Downloads/md_v3/",
+      "plot": "C:/Users/kojor_fyn5sjo/Downloads/dengenkanri/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -633,7 +632,7 @@
   },
   "sheets": [
     [
-      "7f7f2c9b-5cf2-44b8-b9b9-88e5571d2aac",
+      "bf633c44-8795-4132-8c63-929461570538",
       "Root"
     ]
   ],

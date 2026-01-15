@@ -6845,6 +6845,28 @@
 			)
 		)
 	)
+	(global_label "TIM4_CH1"
+		(shape input)
+		(at 180.34 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3bce1eab-f4e2-40b0-aced-6f60de1c6b99")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.3439 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TIM1_CH1"
 		(shape input)
 		(at 215.9 72.39 0)
